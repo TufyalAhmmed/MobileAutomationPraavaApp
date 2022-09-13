@@ -18,22 +18,20 @@ public class BookHealthSteps {
 //        bookHealth = new BookHealth(driver);
 //    }
 
-    private AndroidDriver driver;
+    public AndroidDriver driver;
     BookHealth bookHealth;
     utils.basetests base;
 
     public BookHealthSteps(basetests base) throws MalformedURLException {
-
         this.driver = base.setDriver();
         bookHealth = new BookHealth(driver);
     }
 
     @Then("Tap book a healthcheck Button")
     public void tap_book_a_healthcheck_button() throws InterruptedException {
-
         Thread.sleep(5000);
         bookHealth.setBookhealthcheck();
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
     }
 

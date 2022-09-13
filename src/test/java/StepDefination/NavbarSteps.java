@@ -22,6 +22,7 @@ public class NavbarSteps {
     public void tap_on_navbar() throws InterruptedException {
         Thread.sleep(2000);
         navbar.setNav();
+        Thread.sleep(4000);
 
     }
 

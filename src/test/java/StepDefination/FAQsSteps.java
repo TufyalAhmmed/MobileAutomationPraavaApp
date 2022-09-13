@@ -1,5 +1,4 @@
 package StepDefination;
-
 import io.appium.java_client.android.AndroidDriver;
 import io.cucumber.java.en.Then;
 import pages.FAQs;
@@ -13,15 +12,13 @@ public class FAQsSteps {
     utils.basetests base;
 
     public FAQsSteps(basetests base) throws MalformedURLException {
-
         this.driver = base.setDriver();
         faq = new FAQs(driver);
     }
-
     @Then("Tap on FAQs")
     public void tap_on_fa_qs() throws InterruptedException {
         Thread.sleep(3000);
     faq.setFaqsLink();
-
+    Thread.sleep(4000);
     }
 }

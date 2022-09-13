@@ -19,8 +19,10 @@ public class MyPrescriptionsSteps {
         myPrescriptions= new MyPrescriptions(driver);
     }
     @Then("Tap on My Prescriptions")
-    public void tap_on_my_prescriptions() {
+    public void tap_on_my_prescriptions() throws InterruptedException {
+        Thread.sleep(4000);
         myPrescriptions.setPrescriptionDetails();
+        Thread.sleep(4000);
 
     }
 

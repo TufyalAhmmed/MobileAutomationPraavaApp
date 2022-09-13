@@ -20,7 +20,8 @@ public class WebsiteSteps {
     }
     @Then("Tap on Website Button")
     public void tap_on_website_button() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(4000);
       website.setWebsiteLink();
+        Thread.sleep(4000);
     }
 }

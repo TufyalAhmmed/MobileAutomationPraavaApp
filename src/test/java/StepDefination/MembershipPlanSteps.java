@@ -28,6 +28,7 @@ public class MembershipPlanSteps {
     public void click_membership_o_k_button() throws InterruptedException {
         Thread.sleep(2000);
         membershipPlan.setMembershipOkBtn();
+        Thread.sleep(4000);
 
     }
 }

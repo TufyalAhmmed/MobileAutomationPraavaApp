@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 public class BookHealth {
 
-    private AndroidDriver driver;
+    public AndroidDriver driver;
 
     private By bookhealthcheck = By.xpath("//android.widget.Button[@text='book a health check']");
 

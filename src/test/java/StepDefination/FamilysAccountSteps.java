@@ -21,7 +21,7 @@ public class FamilysAccountSteps {
     }
     @When("Click link your + your family's accounts Button Button")
     public void click_link_your_your_family_s_accounts_button_button() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         familysAccount.setFamilyAccountLink();
         Thread.sleep(2000);
     }
@@ -29,5 +29,6 @@ public class FamilysAccountSteps {
     public void click_family_account_o_k_button() throws InterruptedException {
         Thread.sleep(2000);
         familysAccount.setFamilyAccountOkBtn();
+        Thread.sleep(4000);
     }
 }

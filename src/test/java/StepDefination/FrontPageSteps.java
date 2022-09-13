@@ -22,6 +22,6 @@ public class FrontPageSteps {
     public void user_in_the_front_page() throws MalformedURLException, InterruptedException {
         Thread.sleep(8000);
         base.setUp();
-        Thread.sleep(2000);
+        Thread.sleep(4000);
     }
 }

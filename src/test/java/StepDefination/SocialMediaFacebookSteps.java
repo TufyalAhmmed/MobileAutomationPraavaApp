@@ -22,5 +22,6 @@ public class SocialMediaFacebookSteps {
     public void social_media_facebook_button() throws InterruptedException {
         Thread.sleep(2000);
        socialMediaFacebook.setSocialMediaFacebookLink();
+        Thread.sleep(4000);
     }
 }

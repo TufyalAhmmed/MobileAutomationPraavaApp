@@ -2,16 +2,18 @@ package utils;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
+import org.junit.After;
+import org.junit.Before;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import java.net.MalformedURLException;
 import java.net.URL;
 
 public class basetests {
 
-    public static AppiumDriver driver;
+    public static AndroidDriver driver;
 
 
-    public AppiumDriver setUp() throws MalformedURLException {
+    public AndroidDriver setUp() throws MalformedURLException {
         DesiredCapabilities caps = new DesiredCapabilities();
 
         caps.setCapability("platformName", "Android");
@@ -23,11 +25,22 @@ public class basetests {
         driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), caps);
         return driver;
     }
-
+    @Before
     public AndroidDriver setDriver() throws MalformedURLException {
-        return (AndroidDriver) driver;
-
+        return driver;
     }
+
+    public AndroidDriver getDriver() {
+        return driver;
+    }
+
+    @After
+    public void tearDown() {
+        if (driver != null) {
+            driver.quit();
+        }
+    }
+
 
 }
 

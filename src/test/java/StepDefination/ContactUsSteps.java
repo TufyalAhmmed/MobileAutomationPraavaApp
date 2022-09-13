@@ -21,6 +21,6 @@ public class ContactUsSteps {
     public void tap_on_contact_us() throws InterruptedException {
         Thread.sleep(2000);
         contactus.setContactusBtn();
-
+        Thread.sleep(4000);
     }
 }

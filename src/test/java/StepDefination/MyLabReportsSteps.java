@@ -22,6 +22,7 @@ public class MyLabReportsSteps {
     public void my_lab_reports() throws InterruptedException {
         Thread.sleep(2000);
         myLabReports.setAppoinmentDetails();
+        Thread.sleep(4000);
     }
 
 }

@@ -22,6 +22,6 @@ public class BookAnAppointmentSteps {
     public void tap_on_book_an_appointment() throws InterruptedException {
         Thread.sleep(4000);
         bookAnAppointment.setBookAppointmentLink();
-        Thread.sleep(2000);
+        Thread.sleep(4000);
     }
 }

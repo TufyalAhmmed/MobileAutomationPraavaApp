@@ -22,5 +22,6 @@ public class HCWSYBSteps {
     public void click_how_can_we_serve_you_better_button() throws InterruptedException {
         Thread.sleep(2000);
         hcwsyb.setMembershipLink();
+        Thread.sleep(4000);
     }
 }

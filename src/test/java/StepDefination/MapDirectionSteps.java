@@ -30,6 +30,6 @@ public class MapDirectionSteps {
     public void tap_on_praava_health() throws InterruptedException {
         Thread.sleep(2000);
         mapDirection.setMapDirectionLink();
-        Thread.sleep(2000);
+        Thread.sleep(4000);
     }
 }

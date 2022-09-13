@@ -21,5 +21,6 @@ public class MapSteps {
     public void tap_on_map() throws InterruptedException {
         Thread.sleep(2000);
        map.setMapLink();
+        Thread.sleep(4000);
     }
 }

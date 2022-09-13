@@ -15,7 +15,7 @@ public class SignUpSteps {
 
     public SignUpSteps(basetests base) throws MalformedURLException {
 
-        this.driver = base.setDriver();
+        this.driver = (AndroidDriver) base.setUp();
         NewsignUp = new SignUp(driver);
     }
 
@@ -23,6 +23,7 @@ public class SignUpSteps {
     public void tap_on_sign_up_tab() throws InterruptedException {
         Thread.sleep(4000);
         NewsignUp.setSignupBtn();
+        Thread.sleep(4000);
     }
 
 
@@ -36,6 +37,7 @@ public class SignUpSteps {
     public void user_enters_mobile_in_number_field(String string) throws InterruptedException {
         Thread.sleep(2000);
         NewsignUp.setMobile();
+        Thread.sleep(4000);
 
 
     }

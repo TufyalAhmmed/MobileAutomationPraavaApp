@@ -28,5 +28,6 @@ public class MyAppoinmentsSteps {
     public void tap_on_past_appointments() throws InterruptedException {
         Thread.sleep(4000);
         myAppoinments.setPastAppoinment();
+        Thread.sleep(4000);
     }
 }
