@@ -8,7 +8,6 @@ public class SocialMedia {
 
     private By socialMediaLink = By.xpath("(//android.support.v7.widget.LinearLayoutCompat)[8]");
 
-
     public  SocialMedia(AndroidDriver driver) {
         this.driver = driver;
     }

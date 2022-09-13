@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class MyPrescriptions {
     private AndroidDriver driver;
 
-    private By prescriptionDetails = By.xpath("//android.widget.CheckedTextView[@text='my prescriptions']");
+    private By prescriptionDetails = By.xpath("(//android.support.v7.widget.LinearLayoutCompat)[3]");
 
 
 

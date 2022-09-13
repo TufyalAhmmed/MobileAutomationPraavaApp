@@ -20,8 +20,8 @@ public class SocialMediaSteps {
     }
     @Then("Tap on Social Media Button")
     public void tap_on_social_media_button() throws InterruptedException {
-        Thread.sleep(4000);
+        Thread.sleep(5000);
         socialMedia.setSocialMediaLink();
-        Thread.sleep(4000);
+        Thread.sleep(5000);
     }
 }

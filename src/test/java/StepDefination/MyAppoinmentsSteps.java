@@ -22,6 +22,7 @@ public class MyAppoinmentsSteps {
     public void tap_on_my_appoinments() throws InterruptedException {
         Thread.sleep(2000);
         myAppoinments.setAppoinmentDetails();
+        Thread.sleep(2000);
 
     }
     @Then("Tap on past Appointments")

@@ -1,7 +1,7 @@
 Feature: Visit Map Location
 
   @Android
-  Scenario: Verify Map Location Tab works Properly
+  Scenario: Verify Map Direction Tab works Properly
     Given User enters Mobile "<Number>" in Mobile# field
     When user enters# "<password>" in the password field
     And Tap on Submit tab

@@ -6,8 +6,7 @@ import org.openqa.selenium.By;
 public class MyLabReports {
     private AndroidDriver driver;
 
-    private By appoinmentDetails = By.id("\t\n" +
-            "com.praava.patientportal:id/Buttonbookappointment");
+    private By appoinmentDetails = By.xpath("(//android.support.v7.widget.LinearLayoutCompat)[2]");
 
     public  MyLabReports(AndroidDriver driver) {
         this.driver = driver;

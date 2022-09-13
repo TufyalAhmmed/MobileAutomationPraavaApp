@@ -26,7 +26,7 @@ public class ZLogOutSteps {
     }
     @Then("Tap on LogOut Tab")
     public void tap_on_log_out_tab() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         zLogOut.setLogOutLink();
         Thread.sleep(4000);
     }

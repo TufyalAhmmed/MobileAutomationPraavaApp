@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class FAQs {
     private AndroidDriver driver;
 
-    private By faqsLink = By.xpath("");
+    private By faqsLink = By.xpath("(//android.support.v7.widget.LinearLayoutCompat)[7]");
 
 
 

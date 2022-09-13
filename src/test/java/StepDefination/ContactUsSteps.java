@@ -19,7 +19,7 @@ public class ContactUsSteps {
     }
     @Then("Tap on Contact Us")
     public void tap_on_contact_us() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         contactus.setContactusBtn();
         Thread.sleep(4000);
     }

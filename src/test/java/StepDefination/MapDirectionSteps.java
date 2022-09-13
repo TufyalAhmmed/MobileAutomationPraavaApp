@@ -21,14 +21,14 @@ public class MapDirectionSteps {
     }
     @When("Tap on allow pop up")
     public void tap_on_allow_pop_up() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         mapDirection.setAllowLink();
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
     }
     @Then("Tap on Praava Health")
     public void tap_on_praava_health() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         mapDirection.setMapDirectionLink();
         Thread.sleep(4000);
     }
